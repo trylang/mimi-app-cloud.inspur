@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/control/index",
+    "pages/user/setting",
+    "pages/user/index",
+    "pages/user/entry/auth",
+    "pages/user/entry/MFA",
+    "pages/user/entry/register",
+    "pages/user/entry/login",
+    "pages/user/entry/account_login",
+    "pages/user/entry/wechat_login",
+    "pages/home/recommend/recommendList",
+    "pages/home/recommend/recommendDetail",
+    "pages/home/activities/activitiesList",
+    "components/linkOut",
+    "pages/home/production/productionList",
+    "pages/home/solution/solutionList",
+    "pages/control/workOrder/workOrder",
+    "pages/control/toBePaid/toBePaid",
+    "pages/user/infoCenter/infoCenter",
+    "pages/user/infoDetails/infoDetails",
+    "pages/user/coupon/coupon"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#0062AC",
+    "color": "#7F7F7F",
+    "borderStyle": "black",
+    "list": [{
+        "text": "浪潮云",
+        "pagePath": "pages/home/index",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "控制台",
+        "pagePath": "pages/control/index",
+        "iconPath": "static/tabs/orders.png",
+        "selectedIconPath": "static/tabs/orders-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/user/index",
+        "iconPath": "static/tabs/my.png",
+        "selectedIconPath": "static/tabs/my-active.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}
